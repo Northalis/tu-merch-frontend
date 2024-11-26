@@ -40,7 +40,7 @@ const cartSlice = createSlice({
             }
           }
         }
-        return product;
+        return products;
       });
 
       state.selectedItems = setSelectedItems(state);
